@@ -17,7 +17,7 @@ public class SolicitacaoBean {
 	private Solicitacao solicitacao;
 	private Locale locale;
 
-	@PostConstruct // Inicializando os atributos
+	@PostConstruct
 	private void init() {
 		solicitacao = new Solicitacao();
 	}
